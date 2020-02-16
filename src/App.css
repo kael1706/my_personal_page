@@ -14,6 +14,7 @@ csx
 .cc{
   display: flex;
   justify-content: space-around;
+  align-items: center;
   flex-wrap: wrap;
 }
 
@@ -23,6 +24,10 @@ csx
 
 *{
   box-sizing: border-box;
+}
+li{
+  text-decoration: none;
+  list-style-type: none;
 }
 /*
 body, html {

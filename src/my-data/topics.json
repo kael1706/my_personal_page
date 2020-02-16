@@ -1,37 +1,42 @@
 [
     {
         "id": 0,
-        "title": "Proyect",
-        "description": "...",
-        "u": "proyect",
+        "title": "Proyects",
+        "description": "These are just some of the projects I have worked on.",
+        "u": "proyects",
+        "name_img":"topic-proyects.jpg",
         "status": "true"
     },
     {
         "id": 1,
         "title": "Knowledge",
-        "description": "eee",
+        "description": "I have spent most of my life time learning",
         "u": "knowledge",
+        "name_img":"topic-knowledges.jpg",
         "status": "true"
     },
     {
         "id": 2,
         "title": "Curriculums vitae",
-        "description": "",
+        "description": "you can read or download curriculums vitae",
         "u": "curriculums-vitae",
+        "name_img":"topic-curriculums.jpg",
         "status": "true"
     },
     {
         "id": 3,
         "title": "Publications",
-        "description": "",
-        "u": "publications",
+        "description": "When I have time I like to write. I like teaching",
+        "u": "",
+        "name_img":"topic-proyects.jpg",
         "status": "true"
     },
     {
         "id": 4,
         "title": "About me",
-        "description": "",
+        "description": "More detailed information about me",
         "u": "about-me",
+        "name_img":"topic-proyects.jpg",
         "status": "true"
     }
 ]

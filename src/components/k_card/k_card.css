@@ -1,3 +1,8 @@
 .k_card{
     margin-bottom: 10px;
+    display: flex;
 }
+
+.card{
+  display: flex;
+}  

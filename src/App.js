@@ -1,15 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import K_card from "./components/k_card/k_card";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import CardColumns from 'react-bootstrap/Col';
+
 import Nav from 'react-bootstrap/Nav';
 
 import topics from './my-data/topics.json'
+import {BrowserRouter as Router, Route, link} from 'react-router-dom'
 
+import Home from './pages/home'
 console.log(topics);
 class App extends React.Component {
   state = {
@@ -22,32 +22,50 @@ class App extends React.Component {
   }
 
   render() {
-    return (<div className="App">
-      <div>
+    return (
+
+      <div className="App">
+        <div>
         <Container fluid>
           <Row>
             <Col className="layout" sm={8}>
-              <CardColumns className="cc">
-                {this.state.topics.map(e => <K_card
-                key={"topic-"+e.id} 
-                topic={e}/>)}
-              </CardColumns>
+            <Router>
+              <Route exact path="/" render={() => {
+                return <Home topics={topics}></Home>
+              }}>
+              </Route>
+              <Route exact path="/Proyects" render={() => {
+                return 
+              }}>
+              </Route>
+              <Route exact path="/Proyects/p1" render={() => {
+                return <h1>P1</h1>
+              }}>
+              </Route>
+              
+            </Router>
+              
             </Col>
             <Col className="menu" sm={4}>
               <Nav defaultActiveKey="/home" className="flex-column">
-                <Nav.Link href="/home">Active</Nav.Link>
-                <Nav.Link eventKey="link-1">Link</Nav.Link>
-                <Nav.Link eventKey="link-2">Link</Nav.Link>
-                <Nav.Link eventKey="disabled" disabled>
-                  Disabled
-                </Nav.Link>
+                <Nav.Link href="/">Home</Nav.Link>
+                <Nav.Link href="/proyects">Proyects</Nav.Link>
+                <Router>
+              <Route exact path="/Proyects" render={() => {
+                return <ul> 
+                  <li><Nav.Link href="/Proyects/p1">p1</Nav.Link></li>
+                  </ul>
+              }}>
+              </Route>
+            </Router>
+                <Nav.Link href="/knowledge">Knowledge</Nav.Link>
               </Nav>
             </Col>
           </Row>
         </Container>
+        </div>
       </div>
-    </div>
-
+  
     );
   }
 
