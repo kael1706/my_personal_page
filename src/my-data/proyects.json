@@ -1,0 +1,74 @@
+[
+    {
+        "id": 0,
+        "title": "Oharasis",
+        "description": "Web application that allows the visualization and monitoring of student skills",
+        "u": "oharasis",
+        "name_img":"topic-proyects.jpg",
+        "status": "true"
+    },
+    {
+        "id": 1,
+        "title": "Seguirty Chat",
+        "description": "I made an encrypted chat for a client. The rest of the information is confidential.",
+        "u": "seguirty_chat",
+        "name_img":"topic-proyects.jpg",
+        "status": "true"
+    },
+    {
+        "id": 2,
+        "title": "Zulishop",
+        "description": "It was a virtual store made from scratch, It was done for academic purposes.",
+        "u": "zulishop",
+        "name_img":"topic-proyects.jpg",
+        "status": "true"
+    },
+    {
+        "id": 3,
+        "title": "Aguantap",
+        "description": "Web application that allows two people to connect only if they like each other. As the Tinder application.",
+        "u": "aguantap",
+        "name_img":"topic-proyects.jpg",
+        "status": "true"
+    },
+    {
+        "id": 4,
+        "title": "AirBnB clone",
+        "description": "Web application that simulates some of the features of Airbnb for academic purposes.",
+        "u": "AirBnB_clone",
+        "name_img":"topic-proyects.jpg",
+        "status": "true"
+    },
+    {
+        "id": 5,
+        "title": "Simple Shell",
+        "description": "Application for the unix system. A command terminal was created from scratch with some features of the original version.",
+        "u": "simple_shell",
+        "name_img":"topic-proyects.jpg",
+        "status": "true"
+    },
+    {
+        "id": 6,
+        "title": "Higher level programming",
+        "description": "Set of programming exercises for academic and professional purposes to help solve everyday problems in the world of programming.",
+        "u": "higher_level_programing",
+        "name_img":"topic-proyects.jpg",
+        "status": "true"
+    },
+    {
+        "id": 7,
+        "title": "Low level programming",
+        "description": "Set of programming exercises for academic and professional purposes to help solve everyday problems in the world of programming.",
+        "u": "low_level_programing",
+        "name_img":"topic-proyects.jpg",
+        "status": "true"
+    },
+    {
+        "id": 8,
+        "title": "Holberton system engineering devops",
+        "description": "I have several projects here related to the shell scripts that are useful for a devops",
+        "u": "holberton-system_engineering-devops",
+        "name_img":"topic-proyects.jpg",
+        "status": "true"
+    }
+]

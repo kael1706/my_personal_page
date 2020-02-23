@@ -1,0 +1,26 @@
+.selfie_cedula{
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.icon_github{
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.navbar-brand{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.navbar-p1{
+   display: flex;
+}
+
+.navbar-p2{
+    display: flex;
+}

@@ -1,18 +1,19 @@
 [
+    
+    {
+        "id": 1,
+        "title": "Knowledge",
+        "description": "I have spent most of my life time learning",
+        "u": "knowledge",
+        "name_img":"topic-knowledgesv2.jpg",
+        "status": "true"
+    },
     {
         "id": 0,
         "title": "Proyects",
         "description": "These are just some of the projects I have worked on.",
         "u": "proyects",
         "name_img":"topic-proyects.jpg",
-        "status": "true"
-    },
-    {
-        "id": 1,
-        "title": "Knowledge",
-        "description": "I have spent most of my life time learning",
-        "u": "knowledge",
-        "name_img":"topic-knowledges.jpg",
         "status": "true"
     },
     {
@@ -28,7 +29,7 @@
         "title": "Publications",
         "description": "When I have time I like to write. I like teaching",
         "u": "",
-        "name_img":"topic-proyects.jpg",
+        "name_img":"libros.svg",
         "status": "true"
     },
     {
@@ -36,7 +37,7 @@
         "title": "About me",
         "description": "More detailed information about me",
         "u": "about-me",
-        "name_img":"topic-proyects.jpg",
+        "name_img":"selife-cedula2.png",
         "status": "true"
     }
 ]
